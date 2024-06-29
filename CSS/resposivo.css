@@ -1,0 +1,43 @@
+
+@media screen and (max-width: 1920px){
+    body{
+        margin: 0 auto;
+    }
+    .cabecalho{
+        display: flex
+    }
+
+    .cabecalho .menu li a{
+        font-size: 24px;
+        align-items: baseline;
+    }
+
+    .home{
+        gap: 50px;
+    }
+
+    .home .informacoes{
+      margin-left: 20px;
+      text-align: center;
+    }
+
+    .home .redes-sociais{
+        gap: 24px;
+    }
+
+    .home .container-foto .foto-sombra-interno{
+        max-width: 600px;
+    }
+
+    .projetos .titulo{
+        font-size: 50px;
+    }
+
+    .container-projetos .projeto{
+        max-width: 450px;
+        max-height: 800px;
+    }
+
+
+
+}

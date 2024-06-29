@@ -1,0 +1,31 @@
+html{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 0;
+}
+
+body {
+    line-height: 1;
+    display: block;
+    border-spacing: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.informacoes h1{
+    text-decoration: none;
+    color: #fff;
+}
+
+.informacoes p{
+    text-decoration: none;
+    color: #fff;
+}
