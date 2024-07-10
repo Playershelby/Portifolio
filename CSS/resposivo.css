@@ -1,43 +1,50 @@
-
-@media screen and (max-width: 1920px){
-    body{
-        margin: 0 auto;
-    }
+@media (max-width: 1400px) {
     .cabecalho{
-        display: flex
-    }
-
-    .cabecalho .menu li a{
-        font-size: 24px;
-        align-items: baseline;
+        padding: 30px;
     }
 
     .home{
-        gap: 50px;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0;
+        gap: 30px;
     }
 
     .home .informacoes{
-      margin-left: 20px;
-      text-align: center;
+        max-width: 100%;
+        text-align: center;
+        align-items: center;
     }
 
-    .home .redes-sociais{
-        gap: 24px;
+    .projetos .container-projetos{
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    .home .informacoes{
+        margin: 30px 0;
     }
 
-    .home .container-foto .foto-sombra-interno{
-        max-width: 600px;
+    .home .informacoes h1{
+        font-size: 30px;
     }
 
-    .projetos .titulo{
-        font-size: 50px;
+    .home .informacoes p{
+        font-size: 16px;
     }
 
-    .container-projetos .projeto{
-        max-width: 450px;
-        max-height: 800px;
+    .home .container-foto img{
+        max-width: 320px;
     }
 
+    .projetos{
+        padding: 30px;
+    }
+}
 
-
+@media (min-width: 1280px) {
+    .home{
+        flex-direction: row;
+    }
 }

@@ -1,14 +1,9 @@
-html{
+* {
     margin: 0;
     padding: 0;
-    border: 0;
-    font-size: 0;
-}
-
-body {
-    line-height: 1;
-    display: block;
-    border-spacing: 0;
+    border: none;
+    outline: none;
+    box-sizing: 0;
 }
 
 a{
@@ -16,16 +11,10 @@ a{
     color: #fff;
 }
 
-ul {
+ul{
     list-style: none;
 }
 
-.informacoes h1{
-    text-decoration: none;
-    color: #fff;
-}
-
-.informacoes p{
-    text-decoration: none;
-    color: #fff;
+img{
+    max-width: 100%;
 }
